@@ -151,13 +151,13 @@
 		DCAD685A1BCD9C0400D5A7FB /* HelloWatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				DCAD68711BCDAFB200D5A7FB /* MapInterfaceController.swift */,
 				DCAD685D1BCD9C0400D5A7FB /* InterfaceController.swift */,
 				DCAD685F1BCD9C0400D5A7FB /* ExtensionDelegate.swift */,
 				DCAD68611BCD9C0400D5A7FB /* NotificationController.swift */,
 				DCAD68631BCD9C0400D5A7FB /* Assets.xcassets */,
 				DCAD68651BCD9C0400D5A7FB /* Info.plist */,
 				DCAD685B1BCD9C0400D5A7FB /* Supporting Files */,
-				DCAD68711BCDAFB200D5A7FB /* MapInterfaceController.swift */,
 			);
 			path = "HelloWatchKit Extension";
 			sourceTree = "<group>";
