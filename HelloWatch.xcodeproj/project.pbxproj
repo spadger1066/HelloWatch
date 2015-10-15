@@ -21,6 +21,9 @@
 		DCAD68641BCD9C0400D5A7FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAD68631BCD9C0400D5A7FB /* Assets.xcassets */; };
 		DCAD68681BCD9C0400D5A7FB /* HelloWatchKit.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DCAD684A1BCD9C0400D5A7FB /* HelloWatchKit.app */; };
 		DCAD68721BCDAFB200D5A7FB /* MapInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAD68711BCDAFB200D5A7FB /* MapInterfaceController.swift */; settings = {ASSET_TAGS = (); }; };
+		DCAD69191BCF89E600D5A7FB /* IMG_1103.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCAD69161BCF89E600D5A7FB /* IMG_1103.jpg */; settings = {ASSET_TAGS = (); }; };
+		DCAD691A1BCF89E600D5A7FB /* IMG_1104.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCAD69171BCF89E600D5A7FB /* IMG_1104.jpg */; settings = {ASSET_TAGS = (); }; };
+		DCAD691B1BCF89E600D5A7FB /* IMG_1105.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCAD69181BCF89E600D5A7FB /* IMG_1105.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +88,9 @@
 		DCAD68631BCD9C0400D5A7FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCAD68651BCD9C0400D5A7FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCAD68711BCDAFB200D5A7FB /* MapInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapInterfaceController.swift; sourceTree = "<group>"; };
+		DCAD69161BCF89E600D5A7FB /* IMG_1103.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_1103.jpg; path = ../../Pictures/Export/Photos/IMG_1103.jpg; sourceTree = "<group>"; };
+		DCAD69171BCF89E600D5A7FB /* IMG_1104.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_1104.jpg; path = ../../Pictures/Export/Photos/IMG_1104.jpg; sourceTree = "<group>"; };
+		DCAD69181BCF89E600D5A7FB /* IMG_1105.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_1105.jpg; path = ../../Pictures/Export/Photos/IMG_1105.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,7 @@
 		DCAD682A1BCD976300D5A7FB = {
 			isa = PBXGroup;
 			children = (
+				DCAD69151BCF89C200D5A7FB /* Screenshots */,
 				DCAD68351BCD976300D5A7FB /* HelloWatch */,
 				DCAD684B1BCD9C0400D5A7FB /* HelloWatchKit */,
 				DCAD685A1BCD9C0400D5A7FB /* HelloWatchKit Extension */,
@@ -168,6 +175,16 @@
 				DCAD685C1BCD9C0400D5A7FB /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCAD69151BCF89C200D5A7FB /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				DCAD69161BCF89E600D5A7FB /* IMG_1103.jpg */,
+				DCAD69171BCF89E600D5A7FB /* IMG_1104.jpg */,
+				DCAD69181BCF89E600D5A7FB /* IMG_1105.jpg */,
+			);
+			name = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,8 +290,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCAD69191BCF89E600D5A7FB /* IMG_1103.jpg in Resources */,
+				DCAD691A1BCF89E600D5A7FB /* IMG_1104.jpg in Resources */,
 				DCAD68411BCD976300D5A7FB /* LaunchScreen.storyboard in Resources */,
 				DCAD683E1BCD976300D5A7FB /* Assets.xcassets in Resources */,
+				DCAD691B1BCF89E600D5A7FB /* IMG_1105.jpg in Resources */,
 				DCAD683C1BCD976300D5A7FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -554,6 +574,7 @@
 				DCAD68471BCD976300D5A7FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCAD68691BCD9C0400D5A7FB /* Build configuration list for PBXNativeTarget "HelloWatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +583,7 @@
 				DCAD686B1BCD9C0400D5A7FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCAD686D1BCD9C0400D5A7FB /* Build configuration list for PBXNativeTarget "HelloWatchKit" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +592,7 @@
 				DCAD686F1BCD9C0400D5A7FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
