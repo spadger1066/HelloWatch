@@ -62,10 +62,10 @@
                                 <exclude reference="fN9-SE-VWz"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="cuu-y7-3xl"/>
                                 <exclude reference="89T-1e-HhI"/>
                                 <exclude reference="B9u-Bu-3Or"/>
                                 <exclude reference="KgC-LA-Pyl"/>
-                                <exclude reference="cuu-y7-3xl"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -74,10 +74,10 @@
                                 <include reference="fN9-SE-VWz"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="cuu-y7-3xl"/>
                                 <include reference="89T-1e-HhI"/>
                                 <include reference="B9u-Bu-3Or"/>
                                 <include reference="KgC-LA-Pyl"/>
-                                <include reference="cuu-y7-3xl"/>
                             </mask>
                         </variation>
                     </view>
